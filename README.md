@@ -10,7 +10,7 @@ This page can be mostly used by colleges and institutes.It is full and fully res
 * CSS 
 
 ## Sample Image
-![Sample image](https://github.com/JanaN02/Responsive-Register-Form/assets/123320392/15bee88a-943b-44fc-97fb-27ae00bc6f4b)
+![Sample image](https://github.com/JanaN02/Responsive-Register-Form/assets/123320392/e2371582-c419-4147-b43b-6219c8d1e934)
 
 ## Contact me
 * Any suggestion or feedback <br>
