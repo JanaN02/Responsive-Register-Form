@@ -1,0 +1,250 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:wght@300;500&display=swap');
+
+
+body{
+    background-color: #eeeeee;
+    font-family: 'docs-Roboto', sans-serif;
+}
+.form{
+   margin: auto;
+   max-height: 1100px;
+   max-width: 600px;
+   flex-direction: column;
+}
+.form p{
+    font-weight: 500;
+}
+input::placeholder{
+    font-size: 15px;
+}
+input{
+    accent-color: red;
+}
+input, select {
+    font-size: 15px;
+}
+input:hover{
+    border-bottom-color:red ;
+}
+.box1{
+    height: 150px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    border-top: 20px solid #6703c4;
+    padding: 13px;
+    margin: 15px;
+}
+.box1 h2{
+    font-size: 25px;
+    font-weight: 790;
+}
+.box2{
+    height: 150px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px;
+    margin: 15px;
+}
+.box2 p span{
+    color: red;
+    cursor: pointer;
+}
+.box2p{
+    color: red;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.box3 p span{
+    color: red;
+}
+.box4 p span{
+    color: red;
+}
+.box5 p span{
+    color: red;
+}
+.box6 p span{
+    color: red;
+}
+.box7 p span{
+    color: red;
+}
+.box8 p span{
+    color: red;
+}
+.box9 p span{
+    color: red;
+}
+.box3, .box4, .box5{
+    height: 105px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px;
+    margin: 15px;
+}
+.inputtypes{
+    width: 400px;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid;
+    padding-top: 10px;
+}
+.box6{
+    max-height: 245px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px;
+    margin: 15px;
+}
+.box7{
+    max-height: 190px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px;
+    margin: 15px;
+}
+.box8{
+    height: 105px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px;
+    margin: 15px;
+}
+.box9{
+    max-height: 90px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px;
+    margin: 15px;
+}
+
+/*Footer Contents CSS*/
+
+.footer{
+    flex-direction: column;
+}
+.footer button{
+    color: white;
+    border-radius: 7px;
+    border-style: solid;
+    background-color:#2e45df;
+    font-size: 15px;
+    border-color: #2e45df;
+    padding: 10px 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color:#4c5ed3;
+}
+.footer p{
+    margin-left: 470px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.footer p:hover{
+    color: red;
+}
+.afooter{
+    margin-left: 30px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.ufooter p{
+    margin-left: 250px;
+    font-size: 20px;
+   padding-bottom: 50px;
+   color: grey;
+}
+.ufooter p span{
+    
+    color: black;
+}
+.ufooterp p{
+    margin-left: 170px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.ufooterp p a{
+    color: red;
+}
+
+/*Responsive CSS*/
+
+@media only screen and (max-width: 600px) {
+    .box2{
+       max-width: 1000px;
+    }
+    .box2p{
+        padding-top: 0;
+    }
+    .inputtypes{
+        width: 250px;
+    }
+    .footer button{
+        border-radius: 6px;
+        font-size: 13px;
+        padding: 7px 15px;
+        margin-left: 23px;
+    }
+    .footer p{
+        margin-left: 70%;
+        margin-top: -25px;
+        font-size: 15px;
+    }
+    .afooter{
+        margin-left: 25px;
+        padding-top: 3px;
+        font-size: 12px;
+    }
+    .ufooterp p{
+        margin-left: 50px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .ufooter p{
+        margin-left: 120px;
+        font-size: 17px;
+    }
+    .box6{
+        max-height: 270px;
+    }
+    .box7{
+        max-height: 270px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .inputtypes{
+        width: 200px;
+    }
+    .box2{
+        height: 190px;
+    }
+    .box1{
+        height: 200px;
+    }
+    .afooter{
+        padding-top: 2px;
+        font-size: 10px;
+    }
+    .ufooterp p{
+        font-size: 10px;
+    }
+    .ufooter p{
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    .footer p{
+        margin-left: 66%;
+        font-size: 14px;
+    }
+}

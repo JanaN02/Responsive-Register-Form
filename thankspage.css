@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:wght@300;500&display=swap');
+
+body{
+    background-color: #eeeeee;
+    font-family: 'docs-Roboto', sans-serif;
+}
+.form{
+    margin: auto;
+    max-height: 1100px;
+    max-width: 600px;
+    flex-direction: column;
+ }
+.thank{
+    height: 150px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    border-top: 20px solid #6703c4;
+    padding: 13px;
+    margin: 15px;
+}
+.thank a{
+    color: red;
+    text-decoration: none;
+}
