@@ -14,5 +14,5 @@ This page can be mostly used by colleges and institutes.It is full and fully res
 
 ## Contact me
 * Any suggestion or feedback <br>
- <a href="https://www.linkedin.com/in/jana-n-9a3b2925a">Linked in</a>
+ <a href="https://www.linkedin.com/in/jana-n-9a3b2925a">Linked in</a> ||
  <a href="https://instagram.com/itz_killer.125?igshid=YmMyMTA2M2Y=">Instagram</a>
